@@ -1,0 +1,142 @@
+2016-05-26 11:59  lollisoft
+
+	* AppDevelopmentDemo/DynamicApp/Doc/:
+	  ApplicationprototypingDokumentation.odt,
+	  ApplicationprototypingDokumentation.pdf: Added documentation for
+	  the new logging feature.
+
+2016-05-26 09:37  lollisoft
+
+	* AppDevelopmentDemo/DynamicApp/Doc/LoggingApplicationRunning.png:
+	  Added a screenshot for the running logging application.
+
+2016-05-26 08:55  lollisoft
+
+	* AppDevelopmentDemo/DynamicApp/Doc/LoggingModelDocumentation.png:
+	  A logging model at the time of documenting it.
+
+2016-05-22 07:08  lollisoft
+
+	* BaseDevelopment/splash.png, Test/GUI/wxWrapper/splash.png,
+	  Test/GUI/wxWrapper/Inkscape Icons/Splash Screen.svg: Changed
+	  splash screen version.
+
+2016-05-21 15:52  lollisoft
+
+	*
+	  AppDevelopmentDemo/DynamicApp/XSLT_Templates/XMIToDMF/XMISysImport.xsl:
+	  Fixed import issues. Added missing application id and missing filter
+	  over application id.
+
+2016-05-16 19:32  lollisoft
+
+	* AppDevelopmentDemo/DynamicApp/UMLSamples/InitialModels/:
+	  OpenSourceStoreReviewBrazilApp.xmi, OpenSourceStoreReview/128258,
+	  OpenSourceStoreReview/134530.diagram,
+	  OpenSourceStoreReviewBrazil/128258,
+	  OpenSourceStoreReviewBrazil/134530.diagram,
+	  OpenSourceStoreReviewBrazil/OpenSourceStoreReviewBrazil.prj:
+	  Changed endpoint address, product id and upgrade code.  (To fully
+	  simulate a customer)
+
+2016-05-16 00:46  lollisoft
+
+	*
+	  AppDevelopmentDemo/DynamicApp/XSLT_Templates/XMIToDMF/XMISysImport.xsl:
+	  Bugfix: Copies of UML models with different application name only
+	  failed at import. Actions were deleted globally, where detail data
+	  was deleted only application wide.  Delete them also at application
+	  level.
+
+2016-05-15 22:16  lollisoft
+
+	* AppDevelopmentDemo/DynamicApp/UMLSamples/InitialModels/:
+	  OpenSourceStoreReviewApp.xmi, OpenSourceStoreReviewBrazilApp.xmi,
+	  OpenSourceStoreReview/OpenSourceStoreReview.prj,
+	  OpenSourceStoreReviewBrazil/128258,
+	  OpenSourceStoreReviewBrazil/134530.diagram,
+	  OpenSourceStoreReviewBrazil/OpenSourceStoreReviewBrazil.prj,
+	  OpenSourceStoreReviewBrazil/cpp_includes,
+	  OpenSourceStoreReviewBrazil/generation_settings,
+	  OpenSourceStoreReviewBrazil/idl_includes,
+	  OpenSourceStoreReviewBrazil/java_imports,
+	  OpenSourceStoreReviewBrazil/python_imports,
+	  OpenSourceStoreReviewBrazil/stereotypes,
+	  OpenSourceStoreReviewBrazil/tools: Added new Brazil UML sample to
+	  represent model for a different location and website that trusts the
+	  STS.
+
+2016-05-14 08:52  lollisoft
+
+	* AppDevelopmentDemo/DynamicApp/UMLSamples/InitialModels/:
+	  OpenSourceStoreReviewApp.xmi, OpenSourceStoreReview/128258:
+	  Updated OpenSourceStoreReviewApp version to make a release using the
+	  new XPO database ORM version 15.2.  The version is at least
+	  incompatible with version 13.2.
+
+2016-05-09 18:50  lollisoft
+
+	* ChangeLog-basic.txt, bindist.iss, dist.iss, docdist.iss,
+	  jenkinsrelease.sh, lbdmf-jenkins.spec, lbdmf.spec,
+	  Database/lbDMF-Sqlite-SystemDB.sql, include/lbVersionInfo.h,
+	  interfaces/lbInterfaces.h, Test/GUI/wxWrapper/postlink-mac.sh:
+	  Increased version. Regenerated initial SQL script.
+
+2016-04-30 11:17  lollisoft
+
+	* AppDevelopmentDemo/DynamicApp/UMLSamples/:
+	  InitialModels/DatabaseLogging.xmi,
+	  InitialModels/OpenSourceStoreReviewApp.xmi,
+	  InitialModels/StsManagement.xmi,
+	  InitialModels/DatabaseLogging/DatabaseLogging.prj,
+	  InitialModels/OpenSourceStoreReview/OpenSourceStoreReview.prj,
+	  InitialModels/StsManagement/StsManagement.prj,
+	  SecondStageModels/lbDMF Manager.xmi,
+	  SecondStageModels/lbDMFManager/lbDMFManager.prj: Added properties
+	  to control logging behaviour and corresponding code generation.
+
+2016-04-30 07:29  lollisoft
+
+	* AppDevelopmentDemo/DynamicApp/UMLSamples/:
+	  InitialModels/DatabaseLogging/128002,
+	  InitialModels/DatabaseLogging/128002.diagram,
+	  InitialModels/OpenSourceStoreReview/128258,
+	  InitialModels/OpenSourceStoreReview/134530.diagram,
+	  InitialModels/OpenSourceStoreReview/OpenSourceStoreReview.prj,
+	  InitialModels/StsManagement/128002,
+	  SecondStageModels/lbDMFManager/128130: Added properties to
+	  control logging behaviour and corresponding code generation.
+
+2016-04-25 18:42  lollisoft
+
+	* buildwxWidgets_MinGW.bat: Added parameter to follow redirect.
+
+2016-04-23 22:25  lollisoft
+
+	* AppDevelopmentDemo/DynamicApp/XSLT_Templates/XMIToDMF/:
+	  XMIImport.CreateDBSchema.Sqlite.xsl,
+	  XMISysImport.CreateFormularDefinition.Sqlite.xsl,
+	  XMISysImport.FillSchemaTables.Sqlite.xsl: Added new datetime
+	  mapping and differentiate it to date.
+
+2016-04-23 15:23  lollisoft
+
+	*
+	  AppDevelopmentDemo/DynamicApp/UMLSamples/InitialModels/DatabaseLogging/DatabaseLogging.prj:
+	  Some bugfixes, added version information and endpoints.
+
+2016-04-23 15:20  lollisoft
+
+	* AppDevelopmentDemo/DynamicApp/UMLSamples/InitialModels/:
+	  DatabaseLogging.xmi, DatabaseLogging/128002,
+	  DatabaseLogging/128002.diagram,
+	  DatabaseLogging/DatabaseLogging.prj: Some bugfixes, added version
+	  information and endpoints.
+
+2016-04-23 09:07  lollisoft
+
+	*
+	  AppDevelopmentDemo/DynamicApp/UMLSamples/InitialModels/DatabaseLogging/:
+	  128002, 128002.diagram, DatabaseLogging.prj, cpp_includes,
+	  generation_settings, idl_includes, java_imports, python_imports,
+	  stereotypes, tools: New database logging model.

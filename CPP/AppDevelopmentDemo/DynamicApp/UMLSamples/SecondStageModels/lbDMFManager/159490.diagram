@@ -1,0 +1,159 @@
+format 75
+
+classcanvas 128002 class_ref 163458 // dbtable
+  draw_all_relations default hide_attributes default hide_operations default hide_getset_operations default show_members_full_definition default show_members_visibility default show_members_stereotype default show_members_context default show_members_multiplicity default show_members_initialization default show_attribute_modifiers default member_max_width 0 show_parameter_dir default show_parameter_name default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default show_relation_modifiers default show_relation_visibility default show_infonote default shadow default show_stereotype_properties default
+  xyz 67 35 2000
+end
+classcanvas 128130 class_ref 197378 // dbtableparameter
+  draw_all_relations default hide_attributes default hide_operations default hide_getset_operations default show_members_full_definition default show_members_visibility default show_members_stereotype default show_members_context default show_members_multiplicity default show_members_initialization default show_attribute_modifiers default member_max_width 0 show_parameter_dir default show_parameter_name default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default show_relation_modifiers default show_relation_visibility default show_infonote default shadow default show_stereotype_properties default
+  xyz 537 66 2000
+end
+classcanvas 128258 class_ref 163586 // dbcolumn
+  draw_all_relations default hide_attributes default hide_operations default hide_getset_operations default show_members_full_definition default show_members_visibility default show_members_stereotype default show_members_context default show_members_multiplicity default show_members_initialization default show_attribute_modifiers default member_max_width 0 show_parameter_dir default show_parameter_name default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default show_relation_modifiers default show_relation_visibility default show_infonote default shadow default show_stereotype_properties default
+  xyz 21 533 2006
+end
+classcanvas 128642 class_ref 197506 // TableParameter
+  draw_all_relations default hide_attributes default hide_operations default hide_getset_operations default show_members_full_definition default show_members_visibility default show_members_stereotype default show_members_context default show_members_multiplicity default show_members_initialization default show_attribute_modifiers default member_max_width 0 show_parameter_dir default show_parameter_name default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default show_relation_modifiers default show_relation_visibility default show_infonote default shadow default show_stereotype_properties default
+  xyz 666 269 2000
+end
+classcanvas 128770 class_ref 163970 // Tables
+  draw_all_relations default hide_attributes default hide_operations default hide_getset_operations default show_members_full_definition default show_members_visibility default show_members_stereotype default show_members_context default show_members_multiplicity default show_members_initialization default show_attribute_modifiers default member_max_width 0 show_parameter_dir default show_parameter_name default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default show_relation_modifiers default show_relation_visibility default show_infonote default shadow default show_stereotype_properties default
+  xyz 269 242 2006
+end
+classcanvas 129282 class_ref 164098 // Columns
+  draw_all_relations default hide_attributes default hide_operations default hide_getset_operations default show_members_full_definition default show_members_visibility default show_members_stereotype default show_members_context default show_members_multiplicity default show_members_initialization default show_attribute_modifiers default member_max_width 0 show_parameter_dir default show_parameter_name default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default show_relation_modifiers default show_relation_visibility default show_infonote default shadow default show_stereotype_properties default
+  xyz 175 528 2012
+end
+classcanvas 129794 class_ref 128258 // Formular_Parameter
+  draw_all_relations default hide_attributes default hide_operations default hide_getset_operations default show_members_full_definition default show_members_visibility default show_members_stereotype default show_members_context default show_members_multiplicity default show_members_initialization default show_attribute_modifiers default member_max_width 0 show_parameter_dir default show_parameter_name default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default show_relation_modifiers default show_relation_visibility default show_infonote default shadow default show_stereotype_properties default
+  xyz 643 984 2000
+end
+classcanvas 129922 class_ref 128130 // Formulare
+  draw_all_relations default hide_attributes default hide_operations default hide_getset_operations default show_members_full_definition default show_members_visibility default show_members_stereotype default show_members_context default show_members_multiplicity default show_members_initialization default show_attribute_modifiers default member_max_width 0 show_parameter_dir default show_parameter_name default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default show_relation_modifiers default show_relation_visibility default show_infonote default shadow default show_stereotype_properties default
+  xyz 660 530 2006
+end
+classcanvas 130178 class_ref 128642 // Anwendungen
+  draw_all_relations default hide_attributes default hide_operations default hide_getset_operations default show_members_full_definition default show_members_visibility default show_members_stereotype default show_members_context default show_members_multiplicity default show_members_initialization default show_attribute_modifiers default member_max_width 0 show_parameter_dir default show_parameter_name default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default show_relation_modifiers default show_relation_visibility default show_infonote default shadow default show_stereotype_properties default
+  xyz 372 556 3005
+end
+note 130562 "Bug: Wenn foreign Key keinen Typ
+definiert, kracht es. Mehr validieren.
+"
+  xyzwh 461 418 2000 285 57
+classcanvas 130818 class_ref 204034 // dbcolumnparameter
+  draw_all_relations default hide_attributes default hide_operations default hide_getset_operations default show_members_full_definition default show_members_visibility default show_members_stereotype default show_members_context default show_members_multiplicity default show_members_initialization default show_attribute_modifiers default member_max_width 0 show_parameter_dir default show_parameter_name default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default show_relation_modifiers default show_relation_visibility default show_infonote default shadow default show_stereotype_properties default
+  xyz 21 776 2000
+end
+classcanvas 131074 class_ref 204162 // ColumnParameter
+  draw_all_relations default hide_attributes default hide_operations default hide_getset_operations default show_members_full_definition default show_members_visibility default show_members_stereotype default show_members_context default show_members_multiplicity default show_members_initialization default show_attribute_modifiers default member_max_width 0 show_parameter_dir default show_parameter_name default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default show_relation_modifiers default show_relation_visibility default show_infonote default shadow default show_stereotype_properties default
+  xyz 203 776 3010
+end
+classcanvas 131330 class_ref 150274 // FormularFields
+  draw_all_relations default hide_attributes default hide_operations default hide_getset_operations default show_members_full_definition default show_members_visibility default show_members_stereotype default show_members_context default show_members_multiplicity default show_members_initialization default show_attribute_modifiers default member_max_width 0 show_parameter_dir default show_parameter_name default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default show_relation_modifiers default show_relation_visibility default show_infonote default shadow default show_stereotype_properties default
+  xyz 513 807 2012
+end
+classcanvas 131586 class_ref 150018 // formularfields
+  draw_all_relations default hide_attributes default hide_operations default hide_getset_operations default show_members_full_definition default show_members_visibility default show_members_stereotype default show_members_context default show_members_multiplicity default show_members_initialization default show_attribute_modifiers default member_max_width 0 show_parameter_dir default show_parameter_name default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default show_relation_modifiers default show_relation_visibility default show_infonote default shadow default show_stereotype_properties default
+  xyz 388 1002 2018
+end
+classcanvas 131842 class_ref 210690 // FormularFieldParameter
+  draw_all_relations default hide_attributes default hide_operations default hide_getset_operations default show_members_full_definition default show_members_visibility default show_members_stereotype default show_members_context default show_members_multiplicity default show_members_initialization default show_attribute_modifiers default member_max_width 0 show_parameter_dir default show_parameter_name default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default show_relation_modifiers default show_relation_visibility default show_infonote default shadow default show_stereotype_properties default
+  xyz 28 903 2000
+end
+classcanvas 131970 class_ref 210818 // formularfieldparameter
+  draw_all_relations default hide_attributes default hide_operations default hide_getset_operations default show_members_full_definition default show_members_visibility default show_members_stereotype default show_members_context default show_members_multiplicity default show_members_initialization default show_attribute_modifiers default member_max_width 0 show_parameter_dir default show_parameter_name default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default show_relation_modifiers default show_relation_visibility default show_infonote default shadow default show_stereotype_properties default
+  xyz 73 1024 2000
+end
+relationcanvas 128386 relation_ref 172674 // <association>
+  from ref 128002 z 2007 stereotype "<<relationship>>" xyz 35 371 2007 to ref 128258
+  no_role_a role_b_pos 111 186 3000
+  multiplicity_a_pos 55 514 3000 multiplicity_b_pos 84 186 3000
+end
+relationcanvas 128514 relation_ref 220674 // <association>
+  from ref 128002 z 2001 stereotype "<<relationship>>" xyz 292 124 3000 to ref 128130
+  no_role_a role_b_pos 181 99 3000
+  multiplicity_a_pos 519 133 3000 multiplicity_b_pos 181 133 3000
+end
+relationcanvas 128898 relation_ref 172930 // <dependency>
+  from ref 128770 z 2007 to ref 128002
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 129026 relation_ref 220802 // <dependency>
+  from ref 128642 z 2001 to ref 128130
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 129410 relation_ref 173186 // <dependency>
+  from ref 129282 z 2013 to ref 128258
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 129538 relation_ref 173314 // Columns
+  from ref 128770 z 2013 label "Columns" italic xyz 250.5 457.5 2013 stereotype "<<masterdetail_action>>" xyz 191.5 476.5 2013 to ref 129282
+  role_a_pos 259 509 3000 no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 129666 relation_ref 220930 // TableParameter
+  from ref 128770 z 2007 label "TableParameter" italic xyz 473 312 2007 stereotype "<<masterdetail_action>>" xyz 439 331 3000 to ref 128642
+  role_a_pos 565 299 3000 no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 130050 relation_ref 134146 // Formular_Parameter
+  from ref 129922 z 2007 label "Formular_Parameter" italic xyz 712 700 2007 stereotype "<<masterdetail_action>>" xyz 633 839 2007 to ref 129794
+  role_a_pos 718 965 3000 no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 130306 relation_ref 133890 // Formulare
+  from ref 130178 z 3006 label "Formulare" italic xyz 580 645 3006 stereotype "<<masterdetail_action>>" xyz 527 664 3006 to ref 129922
+  role_a_pos 595 601 3000 no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 130434 relation_ref 180738 // Tables
+  from ref 130178 z 3006 label "Tables" italic xyz 371 471 3006 stereotype "<<masterdetail_action>>" xyz 304 490 3006 to ref 128770
+  role_a_pos 358 395 3000 no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 130946 relation_ref 227458 // <association>
+  from ref 130818 z 2007 stereotype "<<relationship>>" xyz 30 733 3000 to ref 128258
+  role_a_pos 82 700 3000 no_role_b
+  multiplicity_a_pos 55 700 3000 multiplicity_b_pos 64 757 3000
+end
+relationcanvas 131202 relation_ref 227586 // <dependency>
+  from ref 131074 z 3011 to ref 130818
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 131458 relation_ref 151810 // FormularFields
+  from ref 129922 z 2013 label "FormularFields" italic xyz 593 734 2013 stereotype "<<masterdetail_action>>" xyz 565 748 2013 to ref 131330
+  role_a_pos 617 788 3000 no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 131714 relation_ref 151682 // <dependency>
+  from ref 131330 z 2019 to ref 131586
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 132098 relation_ref 234114 // <association>
+  from ref 131970 z 2019 stereotype "<<relationship>>" xyz 256 1075 3000 to ref 131586
+  role_a_pos 304 1062 3000 no_role_b
+  multiplicity_a_pos 370 1087 3000 multiplicity_b_pos 227 1081 3000
+end
+relationcanvas 132226 relation_ref 240642 // <dependency>
+  from ref 131842 z 2001 to ref 131970
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 132354 relation_ref 247170 // Parameter
+  from ref 131330 z 2013 label "Parameter" italic xyz 319 907 2013 stereotype "<<masterdetail_action>>" xyz 281 921 3000 to ref 131842
+  role_a_pos 194 922 3000 no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 132482 relation_ref 247298 // Parameter
+  from ref 129282 z 3011 label "Parameter" italic xyz 215.5 718.5 3011 stereotype "<<masterdetail_action>>" xyz 177.5 732.5 3000 to ref 131074
+  role_a_pos 262 757 3000 no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+line 130690 -_-_
+  from ref 128642 z 2001 to ref 130562
+end
