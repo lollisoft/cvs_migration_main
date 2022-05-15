@@ -1,10 +1,13 @@
 pipeline {
-    agent any
+    agent none
     options {
         parallelsAlwaysFailFast()
     }
     stages {
         stage('Prerequisite Stage') {
+            agent {
+                label "Master"
+            }            
             steps {
                 echo 'This stage will be executed first.'
             }
