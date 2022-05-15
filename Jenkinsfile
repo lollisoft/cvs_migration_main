@@ -1,9 +1,10 @@
 pipeline {
-    agent any 
+    agent none 
     stages {
         stage('Prepare requisites') {
             node ("master") 
             {
+                /*
                 steps {
                     sh "mkdir thirdparty"
                     sh "curl -L http://sourceforge.net/projects/boost/files/boost/1.59.0/boost_1_59_0.tar.gz > thirdparty/boost_1_59_0.tar.gz"
@@ -13,8 +14,12 @@ pipeline {
                     sh "curl -L ftp://xmlsoft.org/libxml2/libxml2-2.8.0.tar.gz > thirdparty/libxml2-2.8.0.tar.gz"
                     stash includes: 'thirdparty/*', name: 'thirdparty'
                 }
+                */
             }
         }
+        stage ('Build') 
+        {
+            /*
         parallel (
             "Windows" : { 
                 node("Windows") 
@@ -38,5 +43,7 @@ pipeline {
                 }
             }
         )
+            */
+        }
     }
 }
