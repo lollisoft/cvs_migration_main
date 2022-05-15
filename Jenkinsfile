@@ -9,7 +9,7 @@ pipeline {
                 label "Master"
             }            
             steps {
-                sh "mkdir thirdparty"
+                sh "mkdir -p thirdparty"
                 sh "curl -L http://sourceforge.net/projects/boost/files/boost/1.59.0/boost_1_59_0.tar.gz > thirdparty/boost_1_59_0.tar.gz"
                 sh "curl -L http://sourceforge.net/projects/boost/files/boost/1.59.0/boost_1_59_0.7z > thirdparty/boost_1_59_0.7z"
                 sh "curl -L http://sourceforge.net/projects/log4cplus/files/log4cplus-stable/1.2.0/log4cplus-1.2.0-rc5.tar.gz > thirdparty/log4cplus-1.2.0-rc5.tar.gz"
