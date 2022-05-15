@@ -3,5 +3,6 @@ pipeline {
     stages {
         stage('Prepare requisites') {
             agent { node { label 'master' } } 
+        }
     }
 }
