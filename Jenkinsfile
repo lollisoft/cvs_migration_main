@@ -44,7 +44,11 @@ pipeline {
                     }
                     steps {
                         unstash "thirdparty"
-                        sh "cp thirdparty/* ./Projects/CPP/vendor"
+                        sh "cp thirdparty/boost_1_59_0.tar.gz ./Projects/CPP/vendor"
+                        sh "cp thirdparty/boost_1_59_0.7z ./Projects/CPP/vendor"
+                        sh "cp thirdparty/log4cplus-1.2.0-rc5.tar.gz ./Projects/CPP/vendor"
+                        sh "cp thirdparty/libxslt-1.1.21.tar.gz ./Projects/CPP/vendor"
+                        sh "cp thirdparty/libxml2-2.8.0.tar.gz ./Projects/CPP/vendor"
                     }
                 }
             }
