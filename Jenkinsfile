@@ -15,7 +15,7 @@ pipeline {
                 }
             }
         }
-        paralell (
+        parallel (
             "Windows" : { 
                 node("Windows") 
                 {
