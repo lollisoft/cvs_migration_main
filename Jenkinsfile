@@ -1,7 +1,8 @@
 pipeline {
     agent none 
     stages {
-        stage('Prepare requisites') {
+        steps
+        {
             agent { node { label 'master' } } 
         }
     }
