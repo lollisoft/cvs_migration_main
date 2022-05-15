@@ -9,7 +9,13 @@ pipeline {
                 label "Master"
             }            
             steps {
-                echo 'This stage will be executed first.'
+                sh "mkdir thirdparty"
+                sh "curl -L http://sourceforge.net/projects/boost/files/boost/1.59.0/boost_1_59_0.tar.gz > thirdparty/boost_1_59_0.tar.gz"
+                sh "curl -L http://sourceforge.net/projects/boost/files/boost/1.59.0/boost_1_59_0.7z > thirdparty/boost_1_59_0.7z"
+                sh "curl -L http://sourceforge.net/projects/log4cplus/files/log4cplus-stable/1.2.0/log4cplus-1.2.0-rc5.tar.gz > thirdparty/log4cplus-1.2.0-rc5.tar.gz"
+                sh "curl -L ftp://xmlsoft.org/libxml2/libxslt-1.1.21.tar.gz > thirdparty/libxslt-1.1.21.tar.gz"
+                sh "curl -L ftp://xmlsoft.org/libxml2/libxml2-2.8.0.tar.gz > thirdparty/libxml2-2.8.0.tar.gz"
+                stash includes: 'thirdparty/*', name: 'thirdparty'            
             }
         }
         stage('Parallel Build Stage') {
@@ -19,7 +25,8 @@ pipeline {
                         label "Linux"
                     }
                     steps {
-                        echo "On Linux"
+                        unstash "thirdparty"
+                        sh "cp thirdparty/* ./Projects/CPP/vendor"
                     }
                 }
                 stage('Windows Build') {
@@ -27,7 +34,8 @@ pipeline {
                         label "Windows"
                     }
                     steps {
-                        echo "On Windows"
+                        unstash "thirdparty"
+                        bat "copy thirdparty\\* .\\Projects\\CPP\\vendor\\*"
                     }
                 }
                 stage('Mac_OS_X_Intel Build') {
@@ -35,7 +43,8 @@ pipeline {
                         label "Mac_OS_X_Intel"
                     }
                     steps {
-                        echo "On Mac_OS_X_Intel"
+                        unstash "thirdparty"
+                        sh "cp thirdparty/* ./Projects/CPP/vendor"
                     }
                 }
             }
