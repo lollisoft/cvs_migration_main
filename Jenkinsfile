@@ -1,9 +1,41 @@
 pipeline {
-    agent none 
+    agent any
+    options {
+        parallelsAlwaysFailFast()
+    }
     stages {
-        stage "1"
-        {
-            agent { node { label 'master' } } 
+        stage('Prerequisite Stage') {
+            steps {
+                echo 'This stage will be executed first.'
+            }
+        }
+        stage('Parallel Build Stage') {
+            parallel {
+                stage('Linux Build') {
+                    agent {
+                        label "Linux"
+                    }
+                    steps {
+                        echo "On Linux"
+                    }
+                }
+                stage('Windows Build') {
+                    agent {
+                        label "Windows"
+                    }
+                    steps {
+                        echo "On Windows"
+                    }
+                }
+                stage('Mac_OS_X_Intel Build') {
+                    agent {
+                        label "Mac_OS_X_Intel"
+                    }
+                    steps {
+                        echo "On Mac_OS_X_Intel"
+                    }
+                }
+            }
         }
     }
 }
