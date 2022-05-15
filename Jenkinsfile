@@ -22,14 +22,14 @@ pipeline {
                     unstash "thirdparty"
                     bat "copy thirdparty\\* .\\Projects\\CPP\\vendor\\*"
                 }
-            }
+            },
             "Linux" : { 
                 node("Linux") 
                 {
                     unstash "thirdparty"
                     sh "cp thirdparty/* ./Projects/CPP/vendor"
                 }
-            }
+            },
             "Mac" : { 
                 node("Mac_OS_X_Intel") 
                 {
