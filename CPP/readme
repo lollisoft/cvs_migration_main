@@ -21,6 +21,9 @@ platform. On linux, modify the xml file so that the functor has no prefix (_).
 Each interface like lb_I_Container for a container is
 configured pointing to a module (DLL/so) and a functor, that creates the instance.
 
+Note:
+
+I am currently migrating my build system to a new version of Jenkins. Work is in progress.
 
 Requirements:
 
